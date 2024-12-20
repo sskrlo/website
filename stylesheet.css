@@ -45,5 +45,6 @@ a:active {
   text-shadow: 0 0 15px #ffffff;
 }
 #also {
+  font-size: small;
   margin-top: 0px;
 }
