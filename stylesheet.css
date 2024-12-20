@@ -1,12 +1,10 @@
-html {
-    background-color: black;
-}
 body {
     text-align: center;
     justify-content: center;
     align-items: center;
     font-family: "Raleway", sans-serif !important;
-    background-color: black;
+    background-image: url('background.png');
+    background-size: cover;
 }
 h1 {
     margin: 0 auto;
