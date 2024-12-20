@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: "Raleway", sans-serif !important;
+    background-color: black;
+}
+h1 {
+    margin: 0 auto;
+    backdrop-filter:blur(20px) brightness(110%);
+    width: 20%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    transition: 0.3s;
+} 
+h1:hover {
+    color: white;
+    text-shadow: 0 0 15px #ffffff;
+}
+h2 {
+    color: white;
+    text-align: center;
+}
+a:link {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  a:active {
+    text-decoration: none;
+    color: #ffffff;
+  }
