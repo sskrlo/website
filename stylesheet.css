@@ -15,9 +15,17 @@ h1 {
     transition: 0.3s;
     outline: 1cm white;
 } 
+h1::selection {
+  color: black;
+  background: white;
+}
 h2 {
     color: white;
     text-align: center;
+}
+h2::selection {
+  color: black;
+  background: white;
 }
 a:link {
   transition: 0.3s;
@@ -35,6 +43,10 @@ a:hover {
 a:active {
   text-decoration: none;
   color: #ffffff;
+}
+a::selection {
+  color: black;
+  background: white;
 }
 #felso{
   transition: 0.3s;
