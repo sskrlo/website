@@ -18,7 +18,6 @@ const texts = [
     "a debil",
     "a kretén",
     "az idétlen",
-    "a dankóros",
     "a paraszt",
 ];
 
