@@ -1,0 +1,129 @@
+<html lang="en">
+  <head>
+    <title>$KRLO!</title>
+    <link
+      rel="icon"
+      type="image/gif"
+      href="assets/images/icon.png"
+    />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="og:title" content="$KRLO" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://skrlo.hu" />
+    <meta property="og:image" content="assets/images/icon.png" />
+    <meta property="og:description" content="😝" />
+    <meta name="theme-color" content="#391279">
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <script src="https://kysu.hu/assets/js/BlockInspect.js"></script>
+    <style>
+      .unselectable {
+        -webkit-user-select: none;
+        -webkit-touch-callout: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <script>
+        function audioPlay() {
+          var audio = document.getElementById("audio");
+          audio.volume = 0.0;
+          audio.play();
+        }
+        function videoPlay() {
+          var video = document.getElementById("video");
+          (video.volume = 1), 0;
+          video.play();
+        }
+      </script>
+      <input type="checkbox" autocomplete="off" id="overlay-toggle" />
+      <input type="checkbox" autocomplete="off" id="overlay-toggle" />
+      <div class="overlay fullscreen">
+        <label for="overlay-toggle" onclick="audioPlay();videoPlay()">
+          <span class="no-hover" style="font-family: mono; font-size: 0.6em"
+            >tap to enter 😝</span
+          >
+          <span class="hover" style="font-family: mono; font-size: 0.6em"
+            >click to enter 😝</span
+          >
+        </label>
+      </div>
+      <audio loop="" preload="auto" id="audio">
+        <source src="assets/images/video.mp4" type="audio/mp3" />
+      </audio>
+      <video
+        loop=""
+        playsinline=""
+        preload="auto"
+        class="fullscreen bg-video"
+        id="video"
+      >
+        <source src="assets/images/video.mp4" type="video/mp4" />
+      </video>
+      <section class="fullscreen text-content">
+        <h1
+          class="unselectable"
+          style="font-family: derk; text-shadow: 0 0 0.4em #bababa"
+        >
+        $KRLO!
+        </h1>
+        <div class="socials">
+          <a
+            href="https://steamcommunity.com/id/skrlo"
+            class="unselectable"
+            style="
+              text-decoration: none;
+              font-family: mono;
+              font-size: 1.1em;
+              text-shadow: 0 0 0.4em #bababa;
+            "
+            target="_blank"
+            >Steam</a
+          >
+          <a
+            href="https://www.instagram.com/skrlo/"
+            class="unselectable"
+            style="
+              text-decoration: none;
+              font-family: mono;
+              font-size: 1.1em;
+              text-shadow: 0 0 0.4em #bababa;
+            "
+            target="_blank"
+            >Instagram</a
+          >
+          <a
+            href="https://www.tiktok.com/@skrlooo"
+            class="unselectable"
+            style="
+              text-decoration: none;
+              font-family: mono;
+              font-size: 1.1em;
+              text-shadow: 0 0 0.4em #bababa;
+            "
+            target="_blank"
+            >Tiktok</a
+          >
+          <a
+            href="https://www.youtube.com/@irelander"
+            class="unselectable"
+            style="
+              text-decoration: none;
+              font-family: mono;
+              font-size: 1.1em;
+              text-shadow: 0 0 0.4em #bababa;
+            "
+            target="_blank"
+            >Youtube</a
+          >
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
